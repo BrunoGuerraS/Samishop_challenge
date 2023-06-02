@@ -12,6 +12,15 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        ravnBlack: "#121212",
+        textDarck: "#333333",
+        textLight: "#828282",
+        textEmphasis: "#EC5757",
+      },
+      fontFamily: {
+        sans: ['var(--font-SFProDisplay)']
+      }
     },
   },
   plugins: [],
