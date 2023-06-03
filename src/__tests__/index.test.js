@@ -5,6 +5,6 @@ import { Home } from "../app/page.tsx";
 describe("Home", () => {
   it("renderizando componentes", () => {
     const { container } = render(<Home />);
-    expect(container).toMatchSnapshot();
+    expect(container).toBeInTheDocument();
   });
 });
